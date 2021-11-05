@@ -12,7 +12,8 @@
     "prettier"
   ],
   "rules": {
-    "prettier/prettier": "error"
+    "prettier/prettier": "error",
+    "react/react-in-jsx-scope": "off"
   },
   "env": {
     "browser": true,

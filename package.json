@@ -2,33 +2,30 @@
   "name": "react-template",
   "version": "0.1.0",
   "description": "An application template to expedite new projects.",
-  "main": "index.js",
+  "browserslist": "> 2%, last 2 versions, not dead",
   "scripts": {
-    "start": "NODE_ENV=development parcel src/index.html --open",
-    "build": "NODE_ENV=production parcel build src/index.html --public-url ./",
+    "start": "parcel src/index.html",
+    "build": "parcel build src/index.html --public-url ./",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Alan Ray Ampersand",
   "license": "ISC",
   "dependencies": {
-    "react": "^17.0.1",
-    "react-dom": "^17.0.1"
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
   },
   "devDependencies": {
     "babel-core": "^6.26.3",
     "babel-eslint": "^10.1.0",
     "babel-plugin-transform-class-properties": "^6.24.1",
     "babel-plugin-transform-object-rest-spread": "^6.26.0",
-    "babel-preset-env": "^1.7.0",
-    "babel-preset-react": "^6.24.1",
-    "eslint": "^7.18.0",
-    "eslint-config-prettier": "^7.2.0",
-    "eslint-plugin-import": "^2.22.1",
+    "eslint": "^7.32.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-import": "^2.25.2",
     "eslint-plugin-jsx-a11y": "^6.4.1",
-    "eslint-plugin-prettier": "^3.3.1",
-    "eslint-plugin-react": "^7.22.0",
-    "parcel-bundler": "^1.12.4",
-    "prettier": "^2.2.1",
-    "react-hot-loader": "^4.13.0"
+    "eslint-plugin-prettier": "^4.0.0",
+    "eslint-plugin-react": "^7.26.1",
+    "parcel": "^2.0.0",
+    "prettier": "^2.4.1"
   }
 }
