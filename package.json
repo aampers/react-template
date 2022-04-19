@@ -11,25 +11,25 @@
   "author": "Alan Ray Ampersand",
   "license": "ISC",
   "dependencies": {
-    "react": "^17.0.2",
-    "react-dom": "^17.0.2"
+    "react": "18.0.0",
+    "react-dom": "18.0.0"
   },
   "devDependencies": {
-    "@babel/preset-env": "^7.16.0",
-    "@babel/preset-react": "^7.16.0",
-    "@parcel/config-default": "^2.0.0",
-    "@parcel/transformer-raw": "^2.0.0",
-    "babel-core": "^6.26.3",
-    "babel-eslint": "^10.1.0",
-    "babel-jest": "^27.3.1",
-    "eslint": "^7.32.0",
-    "eslint-config-prettier": "^8.3.0",
-    "eslint-plugin-import": "^2.25.2",
-    "eslint-plugin-jsx-a11y": "^6.4.1",
-    "eslint-plugin-prettier": "^4.0.0",
-    "eslint-plugin-react": "^7.26.1",
-    "jest": "^27.3.1",
-    "parcel": "^2.0.0",
-    "prettier": "^2.4.1"
+    "@babel/eslint-parser": "7.17.0",
+    "@babel/preset-env": "7.16.11",
+    "@babel/preset-react": "7.16.7",
+    "@parcel/config-default": "2.4.1",
+    "@parcel/transformer-raw": "2.4.1",
+    "babel-core": "6.26.3",
+    "babel-jest": "27.5.1",
+    "eslint": "8.13.0",
+    "eslint-config-prettier": "8.5.0",
+    "eslint-plugin-import": "2.26.0",
+    "eslint-plugin-jsx-a11y": "6.5.1",
+    "eslint-plugin-prettier": "4.0.0",
+    "eslint-plugin-react": "7.29.4",
+    "jest": "27.5.1",
+    "parcel": "2.4.1",
+    "prettier": "2.6.2"
   }
 }
