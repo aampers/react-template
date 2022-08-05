@@ -4,5 +4,6 @@
 	"singleQuote": true,
 	"jsxSingleQuote": true,
 	"jsxBracketSameLine": true,
-	"parser": "babel"
+	"parser": "babel",
+	"semi": false
 }
