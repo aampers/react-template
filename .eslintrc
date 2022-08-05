@@ -1,10 +1,17 @@
 {
   "parser": "@babel/eslint-parser",
-  "requireConfigFile": false,
+  "parserOptions": {
+    "requireConfigFile": false,
+    "babelOptions": {
+      "presets": [
+        "@babel/preset-react"
+      ]
+    }
+  },
   "extends": [
     "eslint:recommended",
     "plugin:react/recommended",
-    "plugin:prettier/recommended"
+    "prettier"
   ],
   "globals": {
     "module": true
@@ -13,8 +20,16 @@
     "prettier"
   ],
   "rules": {
+    "no-dupe-keys": 0,
+    "no-prototype-builtins": 0,
+    "no-useless-escape": 0,
     "prettier/prettier": "error",
-    "react/react-in-jsx-scope": "off"
+    "react/react-in-jsx-scope": "off",
+    "react/prop-types": "off",
+    "semi": [
+      2,
+      "never"
+    ]
   },
   "env": {
     "browser": true,
