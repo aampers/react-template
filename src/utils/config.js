@@ -4,22 +4,22 @@
 
 export const defaults = {
 	port: 1234,
-};
+}
 
-export const dev = {};
+export const dev = {}
 
-export const prod = {};
+export const prod = {}
 
 const config = () => {
 	switch (process.env.NODE_ENV) {
 		case 'production':
-			return prod;
+			return prod
 		default:
-			return dev;
+			return dev
 	}
-};
+}
 
 export default {
 	...defaults,
 	...config(),
-};
+}
