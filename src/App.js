@@ -1,4 +1,4 @@
-import Header from './components/Header';
+import Header from './components/Header'
 
 const App = () => {
 	return (
@@ -6,7 +6,7 @@ const App = () => {
 			<Header />
 			<div className='container'></div>
 		</div>
-	);
-};
+	)
+}
 
-export default App;
+export default App
